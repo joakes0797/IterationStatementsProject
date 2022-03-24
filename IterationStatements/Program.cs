@@ -50,8 +50,11 @@ namespace IterationStatements
 
 
             // Create a foreach loop using the collection - numbers
-                //In the scope of the foreach loop, print each number in numbers
-             
+                //In the scope of the foreach loop, print each number in numbers  --Done
+            foreach (int number in numbers)
+            {
+                Console.WriteLine(number);
+            }
 
 
             Console.WriteLine("");

@@ -35,11 +35,13 @@ namespace IterationStatements
 
             // Create a while loop
             // <--- While num is less than 200
+            while (num < 200)
             {
                 // Increment num by 1
+                num++;
                 // Then add num to the collection numbers
-                    //HINT: copy how this was done in the do while loop
-
+                //HINT: copy how this was done in the do while loop  --Done
+                numbers.Add(num);
             }
 
 

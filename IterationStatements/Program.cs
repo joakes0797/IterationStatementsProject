@@ -7,16 +7,18 @@ namespace IterationStatements
     {
         static void Main(string[] args)
         {
+         //-----------------------------------------------------Iteration Statements, Exercise 2       
                 //TODO - Read each comment and complete its instruction
                 // like the example below
 
                 //Create a List called "numbers" - DONE!
                 var numbers = new List<int>();
-            
+
             //-----START HERE------------------------------------------
             //Create a variable of type int and name it num
-            //initialize the variable with a value of 0
+            //initialize the variable with a value of 0 --Done
 
+            int num = 0;
 
 
             // Create a do-while loop and use the template below:

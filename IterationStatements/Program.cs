@@ -20,17 +20,16 @@ namespace IterationStatements
 
             int num = 0;
 
-
             // Create a do-while loop and use the template below:
-
+            do
             {
                 // Increment num by 1
-
+                num++;
                 // Then add num to the collection - numbers
-                    // Hint: reference num inside of the Add method's parentheses
-                numbers.Add(/* num */);
+                // Hint: reference num inside of the Add method's parentheses
+                numbers.Add(num);
 
-            } // <---- While your variable is less than 100
+            } while (num < 100);// <---- While your variable is less than 100 --Done
 
 
 
